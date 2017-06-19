@@ -1,2 +1,5 @@
 # readme-svg-test
-How to embed a .svg file in a README.md
+How does it work
+---------------------
+
+![Alt text](https://rawgit.com/Ic-ks/readme-svg-test/master/ws2812b-timings.svg)
