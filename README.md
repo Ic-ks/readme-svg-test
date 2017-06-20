@@ -5,7 +5,7 @@ The WS2812B protocol needs 24 bits of data (8 bit per color channel) to set the 
 
 In detail: Each separate bit is defined by a high voltage pulse which is followed by a low voltage pulse. Both pulses must have an exact specified duration, so that they are recognized as 1 or 0 bit: 
 
-![Alt text](https://rawgit.com/Ic-ks/readme-svg-test/master/ws2812b-timings.svg "Timings")
+![Alt text](https://rawgit.com/Ic-ks/readme-svg-test/master/ws2812b-timings.svg "WS2812B Timings")
 * A 1 bit is defined by a high voltage pulse with a duration of 850 ns which is followed by a low voltage pulse of 400 ns
 * A 0 bit is defined by a high voltage pulse with a duration of 400 ns which is followed by a low voltage pulse of 850 ns
 * Each pulse can have a deviation of +/- 150 ns 
@@ -17,3 +17,5 @@ At the moment there is no direct solution to send such short timed pulses with *
 
 Now the solution gets within reach. To control WS2812B LEDs by the SPI we must find an assembly of SPI bits (bit pattern) and a frequency so that this bit pattern is recognized as one WS2812B bit.
 This approach is using an assembly of 3 bits to represent 1 WS2812B bit:
+
+![Alt text](https://rawgit.com/Ic-ks/readme-svg-test/master/ws2812b-pattern.svg "WS2812B Bit Pattern")
