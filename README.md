@@ -20,4 +20,4 @@ This approach is using an assembly of 3 bits to represent 1 WS2812B bit:
 
 <img src="https://rawgit.com/Ic-ks/readme-svg-test/master/ws2812b-bit-pattern.svg" width="100%" height="200">
 
-The deviation from the specified pulse duration is -16 or rather +17 nanoseconds which is within the allowed range of +/-150ns. You could create also a more accurate bit patterns which consists of more than 3 bits. But the more bits you use to express one WS2812b bit, the less is the number of controllable LEDs. Because the SPI is using a fixed sized byte buffer to sent the data.    
+The deviation from the specified pulse duration is -16 or rather +17 nanoseconds which is within the allowed range of +/-150ns. You could create also a more accurate bit patterns which consists of more than 3 bits. But the more bits you use to express one WS2812b bit, the less is the number of controllable LEDs. Because the SPI is using a fixed sized byte buffer to send the data.    
