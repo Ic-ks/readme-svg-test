@@ -19,3 +19,5 @@ Now the solution gets within reach. To control WS2812B LEDs by the SPI we must f
 This approach is using an assembly of 3 bits to represent 1 WS2812B bit:
 
 ![Alt text](https://rawgit.com/Ic-ks/readme-svg-test/master/ws2812b-bit-pattern.svg "WS2812B Bit Pattern")
+
+The deviation from the specified pulse duration is -16 or rather +17 nanoseconds which is within the allowed range of +/-150ns. 
