@@ -10,9 +10,9 @@ In detail: Eah separate bit is defined by a high voltage pulse which is followed
 * A 0 bit is defined by a high voltage pulse with a duration of 400 ns which is followed by a low voltage pulse of 850 ns
 * Each pulse can have a deviation of +/- 150 ns 
 
-At the moment there is no direct solution to send such short timed pulses with **different durations** by the API of Android Things. There is however the [Serial Peripheral Interface (SPI)](https://developer.android.com/things/sdk/pio/spi.html) which is able to send short timed pulses with the **exact same** duration: 
+At the moment there is no direct solution to send such short timed pulses with **different durations** by the API of Android Things. There is however the [Serial Peripheral Interface (SPI)](https://developer.android.com/things/sdk/pio/spi.html) which is only able to send short timed pulses with the **exact same** duration: 
 * This duration is indirectly defined by the frequency of the SPI. 
 * A transmitted 1 bit sends a high voltage pulse to the MOSI (Master Out Slave In) pinout 
 * A transmitted 0 bit sends a low voltage the MOSI pinout
-Now the solution gets within reach. To control WS2812B LEDs by the SPI we must find a bit pattern and a frequency so that an assembly of these SPI bits are recognized as one WS2812B bit.
+Now the solution gets within reach. To control WS2812B LEDs by the SPI we must find an assembly of SPI bits (bit pattern) and a frequency so that this bit pattern is recognized as one WS2812B bit.
 This approach is using an assembly of 3 bits to represent 1 WS2812B bit:
