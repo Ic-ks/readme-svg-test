@@ -177,11 +177,13 @@
          sodipodi:role="line"
          id="tspan4213-5"
          x="33.262833"
-         y="-650.95496">417ns</tspan><tspan
+         y="-650.95496"
+         style="font-size:10px">417ns</tspan><tspan
          sodipodi:role="line"
          x="33.262833"
          y="-640.95496"
-         id="tspan9186">1 bit</tspan></text>
+         id="tspan9186"
+         style="font-size:10px">1 bit</tspan></text>
 <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -232,11 +234,13 @@
          sodipodi:role="line"
          id="tspan4213-5-5"
          x="65.262833"
-         y="-650.95496">417ns</tspan><tspan
+         y="-650.95496"
+         style="font-size:10px">417ns</tspan><tspan
          sodipodi:role="line"
          x="65.262833"
          y="-640.95496"
-         id="tspan9188">1 bit</tspan></text>
+         id="tspan9188"
+         style="font-size:10px">1 bit</tspan></text>
 <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -248,11 +252,13 @@
          sodipodi:role="line"
          id="tspan4213-5-5-5"
          x="97.262833"
-         y="-650.95496">417ns</tspan><tspan
+         y="-650.95496"
+         style="font-size:10px">417ns</tspan><tspan
          sodipodi:role="line"
          x="97.262833"
          y="-640.95496"
-         id="tspan9190">0 bit</tspan></text>
+         id="tspan9190"
+         style="font-size:10px">0 bit</tspan></text>
 <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow1Mend)"
        d="m 26.987834,674.84558 64,0"
@@ -269,11 +275,13 @@
          sodipodi:role="line"
          id="tspan4213-5-5-2"
          x="50.50346"
-         y="-678.95496">834ns</tspan><tspan
+         y="-678.95496"
+         style="font-size:10px">834ns</tspan><tspan
          sodipodi:role="line"
          x="50.50346"
          y="-668.95496"
-         id="tspan9188-9" /></text>
+         id="tspan9188-9"
+         style="font-size:10px" /></text>
 <text
        id="text3431"
        style="font-variant:normal;font-weight:normal;font-size:14.26761055px;font-family:'Times New Roman';-inkscape-font-specification:'Times New';writing-mode:lr-tb;fill:#24211d;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -295,11 +303,13 @@
          sodipodi:role="line"
          id="tspan4213-5-3"
          x="33.568279"
-         y="-734.98712">417ns</tspan><tspan
+         y="-734.98712"
+         style="font-size:10px">417ns</tspan><tspan
          sodipodi:role="line"
          x="33.568279"
          y="-724.98712"
-         id="tspan9186-6">1 bit</tspan></text>
+         id="tspan9186-6"
+         style="font-size:10px">1 bit</tspan></text>
 <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 27.893281,718.8834 0,32 31.699992,0 0.30001,-32"
@@ -326,11 +336,13 @@
          sodipodi:role="line"
          id="tspan4213-5-5-8"
          x="65.568283"
-         y="-734.98712">417ns</tspan><tspan
+         y="-734.98712"
+         style="font-size:10px">417ns</tspan><tspan
          sodipodi:role="line"
          x="65.568283"
          y="-724.98712"
-         id="tspan9188-7">0 bit</tspan></text>
+         id="tspan9188-7"
+         style="font-size:10px">0 bit</tspan></text>
 <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -342,11 +354,13 @@
          sodipodi:role="line"
          id="tspan4213-5-5-5-2"
          x="97.568283"
-         y="-734.98712">417ns</tspan><tspan
+         y="-734.98712"
+         style="font-size:10px">417ns</tspan><tspan
          sodipodi:role="line"
          x="97.568283"
          y="-724.98712"
-         id="tspan9190-0">0 bit</tspan></text>
+         id="tspan9190-0"
+         style="font-size:10px">0 bit</tspan></text>
 <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker9711);marker-end:url(#marker9647)"
        d="m 59.293281,758.87777 63.999999,0"
@@ -363,11 +377,13 @@
          sodipodi:role="line"
          id="tspan4213-5-5-2-7"
          x="82.808914"
-         y="-762.98712">834ns</tspan><tspan
+         y="-762.98712"
+         style="font-size:10px">834ns</tspan><tspan
          sodipodi:role="line"
          x="82.808914"
          y="-752.98712"
-         id="tspan9188-9-5" /></text>
+         id="tspan9188-9-5"
+         style="font-size:10px" /></text>
 <text
        id="text3431-9"
        style="font-variant:normal;font-weight:normal;font-size:14.26761055px;font-family:'Times New Roman';-inkscape-font-specification:'Times New';writing-mode:lr-tb;fill:#24211d;fill-opacity:1;fill-rule:nonzero;stroke:none"
